@@ -20,5 +20,5 @@ public class LinksController {
   List<String> linksV2(@RequestParam String url) throws BadRequest{
     return LinkLister.getLinksV2(url);
   }
-    public static List<String> getLinks(String url) throws IOException {
+    
 }
